@@ -1,0 +1,17 @@
+@import './variables';
+
+
+header{
+
+    @include flexCenter(row);
+
+    height: 100vh;
+    background-color: blue;
+    button{
+        background-color: $primaryBtn;
+    }
+}
+
+button{
+    background-color: $primaryBtn;
+}
