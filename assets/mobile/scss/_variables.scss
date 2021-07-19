@@ -1,6 +1,9 @@
 $primaryBtn: rgb(115, 218, 112);
 $textColorWhite: #F2F1F1;
 $textColorBlack: #9C9C9C;
+$buttonColor: #00A4EF;
+$buttonColorHover: #007bb4;
+
 
 @mixin flexCenter($direction){
     display: flex;
