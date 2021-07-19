@@ -7,6 +7,12 @@
     font-family: 'Segoe UI';
     scroll-behavior: smooth
 }
+.nav_logo{
+    display: none;
+}
+.ul{
+    display: none;
+}
 header{
 
     @include flexCenter(column);
@@ -28,7 +34,7 @@ header{
         justify-content: space-between;
         padding: 0 20px;
         align-items: center;
-
+        
         .menu_toggle{
             height: 25px;
             width: 35px;
@@ -55,6 +61,7 @@ header{
                 font-weight: bold;
             }
         }
+        
     }
 
     .header_middle{
@@ -544,12 +551,14 @@ footer{
                 display: none;
             }
             .nav_logo{
+                display: block;
                 height: 45%;
                 width: 100px;
                 @include backgroundImg('banner_logo.png')
             }
 
-            ul{
+            .ul{
+                display: block;
                 display: flex;
                 width: 500px;
                 justify-content: space-around;

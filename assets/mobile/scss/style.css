@@ -8,6 +8,14 @@
   scroll-behavior: smooth;
 }
 
+.nav_logo {
+  display: none;
+}
+
+.ul {
+  display: none;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -822,6 +830,7 @@ footer p {
     display: none;
   }
   header nav .nav_logo {
+    display: block;
     height: 45%;
     width: 100px;
     background-position: center;
@@ -829,7 +838,8 @@ footer p {
     background-size: 100% 100%;
     background-image: url("../../imagens/banner_logo.png");
   }
-  header nav ul {
+  header nav .ul {
+    display: block;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -837,22 +847,22 @@ footer p {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  header nav ul li {
+  header nav .ul li {
     text-decoration: none;
     list-style-type: none;
   }
-  header nav ul li a {
+  header nav .ul li a {
     text-decoration: none;
     color: #9C9C9C;
     font-weight: 400;
     font-size: 13px;
   }
-  header nav ul li a:hover {
+  header nav .ul li a:hover {
     color: #ffffff;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  header nav ul li:last-of-type {
+  header nav .ul li:last-of-type {
     height: 28px;
     text-align: center;
     width: 105px;
@@ -862,7 +872,7 @@ footer p {
     margin-left: 40px;
     margin-right: -20px;
   }
-  header nav ul li:last-of-type a {
+  header nav .ul li:last-of-type a {
     color: white;
   }
   header .header_middle {
