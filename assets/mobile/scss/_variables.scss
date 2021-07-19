@@ -1,0 +1,19 @@
+$primaryBtn: rgb(115, 218, 112);
+$textColorWhite: #F2F1F1;
+$textColorBlack: #9C9C9C;
+
+@mixin flexCenter($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+
+
+@mixin backgroundImg($url){
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../../imagens/" + $url);
+}

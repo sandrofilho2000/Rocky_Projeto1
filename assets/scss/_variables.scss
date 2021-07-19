@@ -1,8 +1,0 @@
-$primaryBtn: rgb(49, 151, 235);
-
-@mixin flexCenter($direction){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: $direction;
-}
