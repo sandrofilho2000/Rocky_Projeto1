@@ -288,6 +288,7 @@ section.first_section p {
           flex-grow: 1;
   width: 90%;
   height: 110px;
+  max-width: 1500px;
   background-color: #0072C6;
   margin-top: 15px;
   display: -webkit-box;
