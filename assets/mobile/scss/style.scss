@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
     scroll-behavior: smooth
 }
 .nav_logo{
@@ -73,7 +73,7 @@ header{
         @include flexCenter(column);
         justify-content: space-around;
         h1{
-            font: normal normal 600 42px/56px Segoe UI;
+            font: normal normal 600 42px/56px Roboto
         }
         h3{
             font-weight:lighter;
@@ -551,7 +551,7 @@ footer{
                 display: none;
             }
             .nav_logo{
-                display: block;
+                display: block;   
                 height: 45%;
                 width: 100px;
                 @include backgroundImg('banner_logo.png')

@@ -4,7 +4,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Segoe UI';
+  font-family: 'Roboto';
   scroll-behavior: smooth;
 }
 
@@ -126,7 +126,7 @@ header .header_middle {
 }
 
 header .header_middle h1 {
-  font: normal normal 600 42px/56px Segoe UI;
+  font: normal normal 600 42px/56px Roboto;
 }
 
 header .header_middle h3 {
