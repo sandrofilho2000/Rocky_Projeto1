@@ -22,7 +22,8 @@ header{
     background-position-y: -70px;
     position: relative;
     top: 48px;
-    height: 100vh;
+    height: calc(100vh + 58px);
+    z-index: 2;
     &::before{
         content: '';
         position: absolute;
@@ -31,6 +32,7 @@ header{
         left: 0;
         top: 0;
         background-image: linear-gradient(to top, black 7%, transparent);
+        z-index: -1;
     }
     nav{
         height: 52px;
@@ -680,6 +682,7 @@ footer{
 
     section.arrow_section{
         width: 90%;
+        max-width: 1500px;
         margin: 0 auto;
         p{
             width: 100%;
