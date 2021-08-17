@@ -191,12 +191,6 @@ header .header_bottom {
   padding: 0 10.5%;
 }
 
-header .header_bottom .nav_arrow {
-  -webkit-box-ordinal-group: 0;
-      -ms-flex-order: -1;
-          order: -1;
-}
-
 header .header_bottom .nav_arrow a {
   height: 33px;
   width: 33px;

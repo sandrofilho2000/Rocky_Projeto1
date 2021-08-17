@@ -121,9 +121,7 @@ header{
         top: 170px;
         @include flexCenter(row);
         padding: 0 10.5%;
-        .nav_arrow{
-            order: -1;
-        }
+
         .nav_arrow a{
             height: 33px;
             width: 33px;
@@ -184,15 +182,13 @@ section.first_section {
         flex-grow: 1;
         width: 90%;
         height: 110px;
-        max-width: 1500px;
+        max-width: 1300px;
         background-color: #0072C6;
         margin-top: 15px;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        h2{
-            
-        }
+
         .arrow{
             height: 50px;
             min-width: 50px;
@@ -717,7 +713,6 @@ footer{
         .container{
             max-width: 197px;
             @include flexCenter(column);
-            //background-color: black;
             height: 350px;
             justify-content: space-around;
             .button{
@@ -730,13 +725,11 @@ footer{
             }
             .text_container{
                 @include flexCenter(column);
-                //background-color: blueviolet;
                 text-align: center;
                 .text{
                     padding: 0;
                     text-align: center;
                     width: 100%;
-                   // background-color: rgb(23, 24, 31);
                     margin-top: 30px;
                     height: 400px;
                     h3:before{
