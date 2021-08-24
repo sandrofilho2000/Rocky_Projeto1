@@ -159,7 +159,7 @@ header .header_middle .middle_button {
 }
 
 header .header_middle .middle_button:hover {
-  background-color: #b400b4;
+  background-color: #b40000;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -726,7 +726,7 @@ hr {
 }
 
 .form form input[type=submit]:hover {
-  background-color: #b400b4;
+  background-color: #b40000;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
